@@ -1,0 +1,72 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#ti {
+    font-family: 'Lato', sans-serif;
+    margin-left: 7%;
+    color: #3B3B98;
+    font-weight: bold;
+    font-size: 40px;
+
+}
+
+#sub {
+    font-family: 'Lato', sans-serif;
+    margin-left: 4%;
+    color: #B33771;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.campo{
+    font-family: 'Lato', sans-serif;
+    margin-bottom: 1em;
+    
+}
+
+body{
+    background-color: #e4f1fe;
+    font-family: 'Lato', sans-serif;
+    font-size: 1em;
+    margin-left: 36%;
+    margin-top: 2%;
+    justify-content: center;
+}
+
+input, select, button, textarea {
+    border-radius: 2px ;
+}
+
+.campo label {
+    margin-bottom: 0.2em;
+    display: block;
+}
+
+.campo [type = "text"], .campo[type = "email"], .campo select, .campo textarea {
+    padding: 0.2em;
+    border: 1px solid;
+    box-shadow: 0.5px 0.5px 0.5px black;
+    display: block;
+}
+
+.campo select, option {
+    padding-right: 1em;
+}
+
+#botao {
+    font-size: 1.2em;
+    margin-bottom: 1em;
+    box-shadow: 0.5px 0.5px 0.5px black;
+    text-shadow: 0.1px 0.1px 0.1px;
+    position: absolute;
+    top: 90%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+}
+
+.cor {
+    color: #3B3B98;;
+}

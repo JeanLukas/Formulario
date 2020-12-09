@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Form</title>
+</head>
+
+<body>
+    <div>
+        <h1 id="ti" title="Contato">Contato</h1>
+        <p id="sub">Insira seus dados abaixo</p>
+        <br>
+    </div>
+
+    <form>
+
+        <div class="campo">
+            <label for="nome" class="cor"><strong>Nome: </strong></label>
+            <input type="text" name="nome" id="nome" title="Insira seu nome completo" required>
+        </div>
+
+        <div class="campo">
+            <label for="email" class="cor"><strong>Email: </strong></label>
+            <input type="email" nome="email" id="email" title="Insira seu email" required>
+        </div>
+
+        <div class="campo">
+            <label for="genero" class="cor"><strong> Qual é seu genero: </strong></label>
+            <input type="radio" name="sexo" value="masculino" required>Masculino
+            <input type="radio" name="sexo" value="feminino" required>Feminino
+        </div>
+
+        <div class="campo">
+            <label class="cor"><strong>Selecione seu Estado: </strong></label>
+            <select id="estados" title="escolher estado" required>
+                
+                <!--<option selected disable  value=""></option> Caso quiser deixar sem nenhum selecionado -->    
+                      
+                <option>AC</option>
+                <option>AL</option>
+                <option>AP</option>
+                <option>AM</option>
+                <option>BA</option>
+                <option>CE</option>
+                <option>DF</option>
+                <option>ES</option>
+                <option>GO</option>
+                <option>MA</option>
+                <option>MT</option>
+                <option>MS</option>
+                <option>MG</option>
+                <option>PA</option>
+                <option>PB</option>
+                <option>PR</option>
+                <option>PE</option>
+                <option>PI</option>
+                <option>RJ</option>
+                <option>RN</option>
+                <option>RS</option>
+                <option>RO</option>
+                <option>RR</option>
+                <option>SC</option>
+                <option>SP</option>
+                <option>SE</option>
+                <option>TO</option>
+            </select>
+        </div>
+
+        <div class="campo"> 
+            <br>
+            <label class="cor"><strong>Escreva sua dúvida ou pergunta aqui: </strong></label>
+            <textarea rows = " 6 " style = " width: 26em " id="doubts" required></textarea>
+        </div>
+
+
+        <button type="submit" id="botao">Enviar</button>
+    </form>
+</body>
+
+</html>
